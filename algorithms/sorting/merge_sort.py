@@ -25,7 +25,7 @@ def merge(ls: List[int], left_index: int, mid_index: int, right_index: int):
             ls[k] = R[j]
             j += 1
         k += 1
-    
+        
     while i < len(L):
         ls[k] = L[i]
         i += 1
